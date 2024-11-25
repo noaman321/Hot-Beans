@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Courses - Hot Beans Web</title>
+</head>
+<body>
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="about us.html">About Us</a>
+<a href="Meet our team.html">Meet Our Team</a>
+<a href="Job Opening.html">Job Openings</a>
+<a href="apply now.html">Apply Now</a>
+<a href="courses.html" class="active">Courses</a>
+</div>
+<div class="courses-header">
+<h1>Level Up with These Web Development Courses</h1>
+<p>Explore some of the best courses to boost your career in web development.</p>
+</div>
+<div class="courses-section">
+<div class="course-card">
+<h3>Udacity - Front-End Web Developer</h3>
+<p>Learn the essentials of front-end web development, including HTML, CSS, and JavaScript. Perfect for beginners.</p>
+<a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011" target="_blank">Learn More</a>
+</div>
+<div class="course-card">
+<h3>Codecademy - Full Stack Engineer</h3>
+<p>Master both front-end and back-end technologies to become a versatile full stack developer.</p>
+<a href="https://www.codecademy.com/learn/paths/full-stack-engineer-career-path" target="_blank">Learn More</a>
+</div>
+<div class="course-card">
+<h3>Coursera - Web Design for Everyone</h3>
+<p>A beginner-friendly course that covers web design fundamentals and responsive layouts.</p>
+<a href="https://www.coursera.org/specializations/web-design" target="_blank">Learn More</a>
+</div>
+<div class="course-card">
+<h3>FreeCodeCamp - JavaScript Algorithms</h3>
+<p>Delve into advanced JavaScript concepts and algorithms through hands-on projects.</p>
+<a href="https://www.freecodecamp.org/learn" target="_blank">Learn More</a>
+</div>
+</div>
+<div class="footer">
+<p>&copy; 2024 Hot Beans Web. All rights reserved.</p>
+</div>
+</body>
+</html>
+<style>
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, sans-serif;
+}
+body {
+   background: transparent;
+   background-image: url(https://i.gifer.com/origin/46/462c6f5f67c13830cd9fcdbfc7b55ded.gif);
+   text-align: center;
+}
+.navbar {
+   display: flex;
+   justify-content: center;
+   background-color: rgba(0, 0, 0, 0.8);
+   padding: 20px;
+}
+.navbar a {
+   color: #ffffff;
+   padding: 14px 20px;
+   text-decoration: none;
+   font-weight: bold;
+   transition: background 0.3s ease, color 0.3s ease;
+   border-radius: 5px;
+}
+.navbar a:hover {
+   background-color: #ffcc33;
+   color: #333;
+}
+.navbar a.active {
+   background-color: #333;
+}
+.courses-header {
+   background: linear-gradient(135deg, #121d83, #3e8e41);
+   padding: 80px;
+   text-align: center;
+   margin-bottom: 40px;
+   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+h1 {color:white;}
+li {color:white;}
+p {color:white;}
+.courses-header h1 {
+   font-size: 48px;
+   margin-bottom: 10px;
+}
+.courses-header p {
+   font-size: 22px;
+   max-width: 700px;
+   margin: auto;
+}
+.courses-section {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 30px;
+   padding: 40px;
+}
+.course-card {
+   background: rgb(0, 0, 0);
+   width: 300px;
+   padding: 20px;
+   border-radius: 10px;
+   text-align: left;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.course-card h3 {
+   color: #ffffff;
+   margin-bottom: 10px;
+}
+.course-card p {
+   font-size: 16px;
+   margin-bottom: 15px;
+   color: #f2f2f2;
+}
+.course-card a {
+   display: inline-block;
+   background-color: #000000;
+   color: white;
+   padding: 10px 15px;
+   border-radius: 5px;
+   text-decoration: none;
+   transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.course-card a:hover {
+   background-color: #f09819;
+   transform: scale(1.05);
+}
+.course-card:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 8px 20px rgba(160, 157, 157, 0.3);
+}
+.footer {
+   background-color: #333;
+   color: white;
+   text-align: center;
+   padding: 20px 0;
+   margin-top: 30px;
+   font-size: 14px;
+}
+
+@media (max-width: 768px) {
+   .navbar {
+       flex-direction: column;
+   }
+   .navbar a {
+       padding: 12px;
+       text-align: left;
+   }
+   .courses-header h1 {
+       font-size: 36px;
+   }
+   .courses-header p {
+       font-size: 18px;
+   }
+   .courses-section {
+       flex-direction: column;
+       align-items: center;
+   }
+   .course-card {
+       width: 90%;
+   }
+}

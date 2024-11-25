@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meet Our Team - Hot Beans Web</title>
+<link rel="stylesheet" href="team-style.css">
+</head>
+<body>
+<div class="navbar">
+   <a href="index.html">Home</a>
+   <a href="about us.html">About Us</a>
+   <a href="Meet our team.html" class="active">Meet Our Team</a>
+   <a href="Job Opening.html">Job Openings</a>
+   <a href="apply now.html">Apply Now</a>
+   <a href="courses.html" >Courses</a>
+</div>
+<div class="team-header">
+<h1>Meet Our Team</h1>
+<p>The Minds Behind Hot Beans Web</p>
+</div>
+<div class="team-grid">
+<div class="team-member">
+<img src="https://th.bing.com/th/id/OIP.EXzuLGIYiqbsSCpNEfytlgHaHM?rs=1&pid=ImgDetMain" alt="Klaus Mikalson">
+<h2>Klaus Mikalson</h2>
+<p>Lead Web Developer</p>
+<p class="bio">Klaus is a highly skilled web developer with over 10 years of experience in crafting innovative digital solutions.</p>
+</div>
+<div class="team-member">
+<img src="https://th.bing.com/th/id/OIP.Zqj3M9AtZ7ICTn4QfCtJxQHaEK?rs=1&pid=ImgDetMain" alt="Jacob Harrison">
+<h2>Jacob Harrison</h2>
+<p>Front-End Engineer</p>
+<p class="bio">Jacob specialises in front-end technologies and has a passion for creating stunning user interfaces.</p>
+</div>
+<div class="team-member">
+<img src="https://www.exploringarduino.com/wp-content/uploads/2013/05/shaperheadshots020-sq-1024x1024.jpg" alt="Stiles Stilinski">
+<h2>Stiles Stilinski</h2>
+<p>Back-End Developer</p>
+<p class="bio">Stiles is a backend expert who ensures our applications are fast, scalable, and secure.</p>
+</div>
+<div class="team-member">
+<img src="https://th.bing.com/th/id/OIP.loXTZxlBQgPcCyyHKGT2xwHaHa?pid=ImgDet&w=203&h=203&c=7" alt="Chris Evans">
+<h2>Chris Evans</h2>
+<p>UX/UI Designer</p>
+<p class="bio">Chris designs intuitive and visually appealing interfaces that enhance user experience.</p>
+</div>
+</div>
+<div class="footer">
+<p>&copy; 2024 Hot Beans Web. All rights reserved.</p>
+</div>
+</body>
+</html>
+<style>
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, sans-serif;
+}
+body {
+   background: transparent;
+   background-image: url(https://i.gifer.com/origin/46/462c6f5f67c13830cd9fcdbfc7b55ded.gif);
+   text-align: center;
+}
+.navbar {
+   display: flex;
+   justify-content: center;
+   background-color: rgba(0, 0, 0, 0.7);
+   padding: 15px;
+}
+.navbar a {
+   color: #ffffff;
+   padding: 14px 20px;
+   text-decoration: none;
+   font-weight: bold;
+   transition: 0.3s ease, color 0.3s ease;
+   border-radius: 5px;
+}
+.navbar a:hover {
+   background-color: #ffd700;
+   color: #333;
+}
+.navbar a.active {
+   background-color: #333;
+}
+.team-header {
+   background: linear-gradient(135deg, #121d83, #3e8e41);
+   padding: 60px;
+   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+   margin-bottom: 30px;
+}
+h1 {color:white;}
+p {color:white;}
+.team-header h1 {
+   font-size: 48px;
+   margin-bottom: 10px;
+}
+.team-header p {
+   font-size: 22px;
+}
+.team-grid {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 30px;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 40px 20px;
+}
+.team-member {
+   background: rgb(0, 0, 0);
+   border-radius: 10px;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+   width: 250px;
+   padding: 20px;
+   text-align: center;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.team-member:hover {
+   transform: scale(1.05);
+   box-shadow: 0 6px 20px rgb(255, 255, 255);
+}
+.team-member img {
+   border-radius: 50%;
+   width: 100px;
+   height: 100px;
+   transition: transform 0.3s ease;
+}
+.team-member img:hover {
+   transform: scale(1.1);
+}
+.team-member h2 {
+   font-size: 22px;
+   color: #ffffff;
+   margin: 15px 0 5px;
+}
+.team-member p {
+   font-size: 16px;
+   line-height: 1.6;
+}
+.team-member .bio {
+   font-size: 14px;
+   color: #ddd;
+   margin-top: 10px;
+   font-style: italic;
+}
+.footer {
+   background-color: rgba(0, 0, 0, 0.7);
+   padding: 20px;
+   margin-top: 30px;
+   font-size: 14px;
+}
